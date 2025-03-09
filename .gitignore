@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Directorio de producción /dist
+dist
+build
+
+# Dependencias instaladas
+node_modules
+
+# Variables de entorno
+.env
+.env.*.local
+
+# Cache
+.npm
+.pnpm
+.cache
+.parcel-cache
+.vite
+*.cache
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs/editores
+.vscode
+.idea
+*.swp
+
+# Test coverage
+coverage
+
+# Archivos de configuración personal
+*.local
